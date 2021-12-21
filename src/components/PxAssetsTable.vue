@@ -21,7 +21,7 @@
       >
         <td>
           <img
-            class="w-6 h-6"
+            class="w-7 h-7"
             :src="`https://static.coincap.io/assets/icons/${a.symbol.toLowerCase()}@2x.png`"
             :alt="a.name"
           />

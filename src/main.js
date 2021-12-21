@@ -1,15 +1,17 @@
 import Vue from "vue";
 import App from "./App.vue";
 import "@/assets/css/tailwind.css";
+// Se importa las librerías para la gráfica
 import Chart from "chart.js";
-import Chartick from "vue-chartkick";
+import Chartkick from "vue-chartkick";
+// Se importa la librería de la animación de carga
 import { VueSpinners } from "@saeris/vue-spinners";
 
 import router from "@/router";
 import { dollarFilter, percentFilter } from "@/filters";
 
 Vue.use(VueSpinners);
-Vue.use(Chartick.use(Chart));
+Vue.use(Chartkick.use(Chart));
 
 Vue.filter("dollar", dollarFilter);
 Vue.filter("percent", percentFilter);

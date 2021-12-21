@@ -62,11 +62,11 @@
               />
             </label>
           </div>
-
           <span class="text-xl"></span>
         </div>
       </div>
 
+      <!-- Gráfica de color naranja con los valores mínimos y máximos que se sacan desde la api y con una función map que saca las coordenadas de acuerdo al historial que se sacó desde la api -->
       <line-chart
         class="my-10"
         :colors="['orange']"
